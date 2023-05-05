@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "354912776761",
+    "project_id": "otp-verification-1a99c",
+    "storage_bucket": "otp-verification-1a99c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354912776761:android:324cb0fbfcfab6c008d3e8",
+        "android_client_info": {
+          "package_name": "com.example.park_in"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "354912776761-sbdcv2i1gbcmdbhfkiq4im48gosm59j4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.park_in",
+            "certificate_hash": "45d94a6935f06717aecfc5dbc600849faa949281"
+          }
+        },
+        {
+          "client_id": "354912776761-ji0l6e3ndc7kd4ugshp1ap4rhq8cduo5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8gmvE4071HtrycRJFFNy2AbmRQM6HVaE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "354912776761-ji0l6e3ndc7kd4ugshp1ap4rhq8cduo5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

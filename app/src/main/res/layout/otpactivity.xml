@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OTP">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="213dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="68dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/mail" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="208dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="101dp"
+        android:text="Please Enter OTP sent to your"
+        android:textAlignment="center"
+        android:textColor="#444444"
+        android:textSize="15dp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+
+    <EditText
+        android:id="@+id/inputcode1"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="404dp"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textCursorDrawable="@drawable/cursorcolor"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/inputcode2"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="404dp"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textCursorDrawable="@drawable/cursorcolor"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/inputcode3"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="404dp"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textCursorDrawable="@drawable/cursorcolor"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/inputcode4"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="404dp"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textCursorDrawable="@drawable/cursorcolor"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/inputcode5"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="404dp"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textCursorDrawable="@drawable/cursorcolor"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/inputcode6"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="292dp"
+        android:layout_marginTop="404dp"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textCursorDrawable="@drawable/cursorcolor"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="24dp"
+        android:text="Didn't receive the OTP?"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputcode1" />
+
+    <TextView
+        android:id="@+id/resendOTP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="24dp"
+        android:text="RESEND OTP"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/inputcode3" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="264dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="138dp"
+        android:layout_marginEnd="138dp"
+        android:layout_marginBottom="168dp"
+        android:backgroundTint="#a9a9a9"
+        android:clickable="true"
+        android:text="VERIFY"
+        android:textColor="#555555"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBarreceiveotp"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="516dp"
+        android:foregroundGravity="center"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="All Rights Reserved"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.92" />
+
+    <TextView
+        android:id="@+id/showphone"
+        android:layout_width="210dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="76dp"
+        android:gravity="center"
+        android:layout_marginTop="4dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
